@@ -1,0 +1,12 @@
+div.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.nav{
+    font-size: 30px;
+    padding: 25px 75px;
+    font-family: monospace;
+    text-decoration: none;
+}
