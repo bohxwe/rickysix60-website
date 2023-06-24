@@ -46,11 +46,39 @@ a.fa{
     width: 20px;
     height: 20px;
     text-align: center;
+    justify-content: center;
     text-decoration: none;
     border-radius: 25%;
+    display: flex;
+    margin: 15px;
 }
 
 div.socialmedia{
     display: flex;
     justify-content: center;
+}
+
+.fa-soundcloud{
+    background-color: #FF5500;
+    color: white;
+}
+
+.fa-spotify{
+    background-color: #1ED760;
+    color: white;
+}
+
+.fa-tiktok{
+    background-color: #000;
+    color: white;
+}
+
+.fa-apple{
+    background-color: #000;
+    color: white;
+}
+
+.fa-youtube{
+    background-color: #FF0000;
+    color: white;
 }
