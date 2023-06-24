@@ -54,8 +54,13 @@ a.fa{
 }
 
 div.socialmedia{
+    width: 100%;
     display: flex;
     justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+    background-color: #FF93D1;
+    border-radius: 75%;
 }
 
 .fa-soundcloud{
@@ -68,9 +73,11 @@ div.socialmedia{
     color: white;
 }
 
-.fa-tiktok{
+a.fa.fa-tiktok{
     background-color: #000;
     color: white;
+    font-family: monospace;
+    font-size: small;
 }
 
 .fa-apple{
@@ -81,4 +88,28 @@ div.socialmedia{
 .fa-youtube{
     background-color: #FF0000;
     color: white;
+}
+
+div.aboutme{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 15px;
+}
+
+h1.aboutme{
+    padding: 15px;
+    margin: 0;
+    height: 32px;
+    font-family: monospace;
+}
+
+img#RickySix60-1{
+    border-radius: 25%;
+    padding: 15px;
+}
+
+p.aboutme{
+    padding: 15px;
+    font-family: monospace;
 }
