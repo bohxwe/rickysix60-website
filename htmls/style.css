@@ -60,7 +60,7 @@ div.socialmedia{
     text-align: center;
     padding-bottom: 15px;
     background-color: #FF93D1;
-    border-radius: 75%;
+    border: solid;
 }
 
 .fa-soundcloud{
@@ -112,4 +112,9 @@ img#RickySix60-1{
 p.aboutme{
     padding: 15px;
     font-family: monospace;
+}
+
+a.fa{
+    margin-left: 50px;
+    margin-right: 50px;
 }
