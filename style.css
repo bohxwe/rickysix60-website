@@ -55,11 +55,11 @@ a.fa{
 }
 
 div.socialmedia{
+    display: flex;
     width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-bottom: 15px;
     background-color: #FF93D1;
     border: solid;
 }
