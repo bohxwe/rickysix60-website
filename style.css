@@ -153,20 +153,20 @@ div.information2{
     padding-left: 30px;
     width: auto;
     height: 750px;
-    background-color: #F42B15;
+    background-color: #FF93D1;
     border: solid;
 }
 
 h1.aboutMe{
     float: right;
     justify-self: center;
-    color: white;
+    color: black;
     font-size: 40px;
 
 }
 
 p.aboutMe{
-    color: white;
+    color: black;
     padding: 5px 0 5px 0;
     font-size: x-large;
 }
