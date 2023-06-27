@@ -3,11 +3,13 @@ div.nav{
     align-items: center;
     justify-content: center;
     width: 100%;
+    background-color: white;
 }
 
 a.nav{
-    font-size: 30px;
-    padding: 25px;
+    font-size: 20px;
+    margin: auto;
+    padding-bottom: 15px;
     font-family: monospace;
     text-decoration: none;
     color: #000;
@@ -52,6 +54,7 @@ a.fa{
     border-radius: 25%;
     display: flex;
     margin: 15px;
+    border: solid;
 }
 
 div.socialmedia{
@@ -60,8 +63,9 @@ div.socialmedia{
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #FF93D1;
+    background-color: #004C95;
     border: solid;
+    margin-bottom: 15px;
 }
 
 .fa-soundcloud{
@@ -97,8 +101,8 @@ a.fa{
 }
 
 #logo{
-    width: 300px;
-    height: 150px;
+    width: 200px;
+    height: 100px;
 }
 
 #music{
@@ -115,4 +119,31 @@ a.fa{
 
 #news{
     padding: 25px 25px;
+}
+
+#vibrancy{
+    margin: 0;
+}
+
+.logo2{
+    padding: 0%;
+    margin: auto;
+}
+
+div.photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 330px;
+    border: solid;
+    background-color: #FFD000;
+}
+
+#profile{
+    border: solid;
+}
+
+body{
+    background-image: url(logo2.jpg);
 }
