@@ -134,12 +134,9 @@ div.information{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 33%;
-    height: 330px;
-    border: solid;
-    background-color: #FFD000;
+    width: 33%
     float: left;
-    margin-right: 15px;
+    padding-bottom: 15px;
 }
 
 #profile{
@@ -155,18 +152,21 @@ div.information2{
     display: grid;
     padding-left: 30px;
     width: auto;
-    height: 500px;
+    height: 750px;
     background-color: #F42B15;
     border: solid;
 }
 
 h1.aboutMe{
     float: right;
-    justify-self: flex-start;
+    justify-self: center;
     color: white;
+    font-size: 40px;
+
 }
 
 p.aboutMe{
     color: white;
     padding: 5px 0 5px 0;
+    font-size: x-large;
 }
