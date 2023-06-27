@@ -152,7 +152,7 @@ div.information2{
     display: grid;
     padding-left: 30px;
     width: auto;
-    height: 750px;
+    height: 875px;
     background-color: #FF93D1;
     border: solid;
 }
@@ -168,5 +168,5 @@ h1.aboutMe{
 p.aboutMe{
     color: black;
     padding: 5px 0 5px 0;
-    font-size: x-large;
+    font-size: 25px;
 }
