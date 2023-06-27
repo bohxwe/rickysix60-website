@@ -130,14 +130,16 @@ a.fa{
     margin: auto;
 }
 
-div.photos{
+div.information{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 330px;
+    width: 33%;
     height: 330px;
     border: solid;
     background-color: #FFD000;
+    float: left;
+    margin-right: 15px;
 }
 
 #profile{
@@ -146,4 +148,25 @@ div.photos{
 
 body{
     background-image: url(logo2.jpg);
+    font-family: monospace;
+}
+
+div.information2{
+    display: grid;
+    padding-left: 30px;
+    width: auto;
+    height: 500px;
+    background-color: #F42B15;
+    border: solid;
+}
+
+h1.aboutMe{
+    float: right;
+    justify-self: flex-start;
+    color: white;
+}
+
+p.aboutMe{
+    color: white;
+    padding: 5px 0 5px 0;
 }
